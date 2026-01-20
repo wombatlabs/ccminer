@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sudo apt-get update
 sudo apt-get install -y build-essential autotools-dev autoconf automake libtool pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev nvidia-cuda-toolkit
 
 # Simple script to create the Makefile and build
